@@ -1451,7 +1451,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessW0C),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_dis (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2043,7 +2043,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2068,7 +2068,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2093,7 +2093,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2118,7 +2118,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2143,7 +2143,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2168,7 +2168,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2193,7 +2193,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_0_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2221,7 +2221,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2246,7 +2246,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_rd_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2271,7 +2271,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_prog_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2296,7 +2296,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_erase_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2321,7 +2321,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_scramble_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2346,7 +2346,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_ecc_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2371,7 +2371,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_1_he_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2399,7 +2399,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2424,7 +2424,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_rd_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2449,7 +2449,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_prog_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2474,7 +2474,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_erase_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2499,7 +2499,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_scramble_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2524,7 +2524,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_ecc_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2549,7 +2549,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_2_he_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2577,7 +2577,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2602,7 +2602,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_rd_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2627,7 +2627,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_prog_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2652,7 +2652,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_erase_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2677,7 +2677,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_scramble_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2702,7 +2702,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_ecc_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2727,7 +2727,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_3_he_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2755,7 +2755,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2780,7 +2780,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_rd_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2805,7 +2805,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_prog_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2830,7 +2830,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_erase_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2855,7 +2855,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_scramble_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2880,7 +2880,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_ecc_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2905,7 +2905,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_4_he_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2933,7 +2933,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2958,7 +2958,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_rd_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -2983,7 +2983,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_prog_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3008,7 +3008,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_erase_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3033,7 +3033,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_scramble_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3058,7 +3058,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_ecc_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3083,7 +3083,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_5_he_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3111,7 +3111,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3136,7 +3136,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_rd_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3161,7 +3161,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_prog_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3186,7 +3186,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_erase_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3211,7 +3211,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_scramble_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3236,7 +3236,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_ecc_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3261,7 +3261,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_6_he_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3289,7 +3289,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3314,7 +3314,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_rd_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3339,7 +3339,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_prog_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3364,7 +3364,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_erase_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3389,7 +3389,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_scramble_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3414,7 +3414,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_ecc_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3439,7 +3439,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_mp_region_cfg_7_he_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3890,7 +3890,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_rd_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3915,7 +3915,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_prog_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3940,7 +3940,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_erase_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3965,7 +3965,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_scramble_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -3990,7 +3990,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_ecc_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4015,7 +4015,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_default_region_he_en (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4313,7 +4313,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4338,7 +4338,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4363,7 +4363,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4388,7 +4388,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4413,7 +4413,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4438,7 +4438,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4463,7 +4463,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_0_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4491,7 +4491,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4516,7 +4516,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_rd_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4541,7 +4541,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_prog_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4566,7 +4566,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_erase_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4591,7 +4591,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_scramble_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4616,7 +4616,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_ecc_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4641,7 +4641,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_1_he_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4669,7 +4669,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4694,7 +4694,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_rd_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4719,7 +4719,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_prog_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4744,7 +4744,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_erase_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4769,7 +4769,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_scramble_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4794,7 +4794,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_ecc_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4819,7 +4819,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_2_he_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4847,7 +4847,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4872,7 +4872,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_rd_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4897,7 +4897,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_prog_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4922,7 +4922,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_erase_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4947,7 +4947,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_scramble_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4972,7 +4972,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_ecc_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -4997,7 +4997,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_3_he_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5025,7 +5025,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5050,7 +5050,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_rd_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5075,7 +5075,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_prog_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5100,7 +5100,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_erase_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5125,7 +5125,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_scramble_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5150,7 +5150,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_ecc_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5175,7 +5175,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_4_he_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5203,7 +5203,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5228,7 +5228,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_rd_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5253,7 +5253,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_prog_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5278,7 +5278,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_erase_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5303,7 +5303,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_scramble_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5328,7 +5328,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_ecc_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5353,7 +5353,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_5_he_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5381,7 +5381,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5406,7 +5406,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_rd_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5431,7 +5431,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_prog_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5456,7 +5456,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_erase_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5481,7 +5481,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_scramble_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5506,7 +5506,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_ecc_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5531,7 +5531,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_6_he_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5559,7 +5559,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5584,7 +5584,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_rd_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5609,7 +5609,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_prog_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5634,7 +5634,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_erase_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5659,7 +5659,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_scramble_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5684,7 +5684,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_ecc_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5709,7 +5709,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_7_he_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5737,7 +5737,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5762,7 +5762,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_rd_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5787,7 +5787,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_prog_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5812,7 +5812,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_erase_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5837,7 +5837,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_scramble_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5862,7 +5862,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_ecc_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5887,7 +5887,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_8_he_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5915,7 +5915,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5940,7 +5940,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_rd_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5965,7 +5965,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_prog_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -5990,7 +5990,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_erase_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6015,7 +6015,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_scramble_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6040,7 +6040,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_ecc_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6065,7 +6065,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info0_page_cfg_9_he_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6120,7 +6120,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6145,7 +6145,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6170,7 +6170,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6195,7 +6195,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6220,7 +6220,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6245,7 +6245,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6270,7 +6270,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info1_page_cfg_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6352,7 +6352,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6377,7 +6377,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6402,7 +6402,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6427,7 +6427,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6452,7 +6452,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6477,7 +6477,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6502,7 +6502,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_0_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6530,7 +6530,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6555,7 +6555,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_rd_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6580,7 +6580,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_prog_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6605,7 +6605,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_erase_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6630,7 +6630,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_scramble_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6655,7 +6655,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_ecc_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6680,7 +6680,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank0_info2_page_cfg_1_he_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -6978,7 +6978,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7003,7 +7003,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7028,7 +7028,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7053,7 +7053,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7078,7 +7078,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7103,7 +7103,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7128,7 +7128,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_0_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7156,7 +7156,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7181,7 +7181,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_rd_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7206,7 +7206,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_prog_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7231,7 +7231,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_erase_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7256,7 +7256,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_scramble_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7281,7 +7281,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_ecc_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7306,7 +7306,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_1_he_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7334,7 +7334,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7359,7 +7359,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_rd_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7384,7 +7384,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_prog_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7409,7 +7409,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_erase_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7434,7 +7434,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_scramble_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7459,7 +7459,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_ecc_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7484,7 +7484,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_2_he_en_2 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7512,7 +7512,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7537,7 +7537,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_rd_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7562,7 +7562,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_prog_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7587,7 +7587,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_erase_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7612,7 +7612,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_scramble_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7637,7 +7637,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_ecc_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7662,7 +7662,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_3_he_en_3 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7690,7 +7690,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7715,7 +7715,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_rd_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7740,7 +7740,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_prog_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7765,7 +7765,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_erase_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7790,7 +7790,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_scramble_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7815,7 +7815,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_ecc_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7840,7 +7840,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_4_he_en_4 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7868,7 +7868,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7893,7 +7893,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_rd_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7918,7 +7918,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_prog_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7943,7 +7943,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_erase_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7968,7 +7968,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_scramble_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -7993,7 +7993,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_ecc_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8018,7 +8018,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_5_he_en_5 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8046,7 +8046,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8071,7 +8071,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_rd_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8096,7 +8096,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_prog_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8121,7 +8121,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_erase_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8146,7 +8146,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_scramble_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8171,7 +8171,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_ecc_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8196,7 +8196,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_6_he_en_6 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8224,7 +8224,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8249,7 +8249,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_rd_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8274,7 +8274,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_prog_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8299,7 +8299,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_erase_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8324,7 +8324,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_scramble_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8349,7 +8349,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_ecc_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8374,7 +8374,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_7_he_en_7 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8402,7 +8402,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8427,7 +8427,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_rd_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8452,7 +8452,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_prog_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8477,7 +8477,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_erase_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8502,7 +8502,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_scramble_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8527,7 +8527,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_ecc_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8552,7 +8552,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_8_he_en_8 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8580,7 +8580,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8605,7 +8605,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_rd_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8630,7 +8630,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_prog_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8655,7 +8655,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_erase_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8680,7 +8680,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_scramble_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8705,7 +8705,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_ecc_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8730,7 +8730,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info0_page_cfg_9_he_en_9 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8785,7 +8785,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8810,7 +8810,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8835,7 +8835,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8860,7 +8860,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8885,7 +8885,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8910,7 +8910,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -8935,7 +8935,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info1_page_cfg_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9017,7 +9017,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9042,7 +9042,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_rd_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9067,7 +9067,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_prog_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9092,7 +9092,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_erase_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9117,7 +9117,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_scramble_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9142,7 +9142,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_ecc_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9167,7 +9167,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_0_he_en_0 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9195,7 +9195,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9220,7 +9220,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_rd_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9245,7 +9245,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_prog_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9270,7 +9270,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_erase_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9295,7 +9295,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_scramble_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9320,7 +9320,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_ecc_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -9345,7 +9345,7 @@ module flash_ctrl_core_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_bank1_info2_page_cfg_1_he_en_1 (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),

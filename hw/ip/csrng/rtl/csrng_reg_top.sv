@@ -537,7 +537,7 @@ module csrng_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_ctrl_enable (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -562,7 +562,7 @@ module csrng_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_ctrl_sw_app_enable (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),
@@ -587,7 +587,7 @@ module csrng_reg_top (
   prim_subreg #(
     .DW      (4),
     .SwAccess(prim_subreg_pkg::SwAccessRW),
-    .RESVAL  (4'h5)
+    .RESVAL  (4'h9)
   ) u_ctrl_read_int_state (
     .clk_i   (clk_i),
     .rst_ni  (rst_ni),

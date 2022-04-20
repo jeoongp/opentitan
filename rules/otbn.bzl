@@ -1,5 +1,3 @@
-
-   
 # Copyright lowRISC contributors.
 # Licensed under the Apache License, Version 2.0, see LICENSE for details.
 # SPDX-License-Identifier: Apache-2.0
@@ -62,6 +60,7 @@ def _otbn_binary(ctx):
     instructions into the proper opcode sequences and _then_ invoke the normal
     `rv32-{as,ld,...}` programs to produce the resource.  These "native"
     otbn resources are the `otbn_objs` and `elf` output groups.
+
     In order to make the otbn resource useful to the the main CPU, the
     otbn resource needs to be included as a blob of data that the main
     CPU can dump into the otbn `imem` area and ask otbn to execute it.
@@ -69,6 +68,7 @@ def _otbn_binary(ctx):
     `foo.rv32embed.o`.  Bazel's `cc_*` rules really want dependency objects
     expressed as archives rather than raw object files, so I've modified
     `otbn-build` to also emit an archive file.
+
     _Morally_, the otbn resource is a data dependency.  However the
     practical meaning of a `data` dependency in bazel is a file made
     available at runtime, which is not how we're using the otbn resource.
@@ -100,10 +100,6 @@ def _otbn_binary(ctx):
                   ctx.files._otbn_data +
                   [ctx.executable._wrapper]),
         env = {
-<<<<<<< HEAD
-=======
-            "OTBN_LD": ctx.file._otbn_ld.path,
->>>>>>> 024e3931a ([bazel] update `build_otbn.py` to import otbn_as module)
             "RV32_TOOL_AS": assembler.path,
             "RV32_TOOL_AR": cc_toolchain.ar_executable,
             "RV32_TOOL_LD": cc_toolchain.ld_executable,

@@ -100,6 +100,10 @@ def _otbn_binary(ctx):
                   ctx.files._otbn_data +
                   [ctx.executable._wrapper]),
         env = {
+<<<<<<< HEAD
+=======
+            "OTBN_LD": ctx.file._otbn_ld.path,
+>>>>>>> 024e3931a ([bazel] update `build_otbn.py` to import otbn_as module)
             "RV32_TOOL_AS": assembler.path,
             "RV32_TOOL_AR": cc_toolchain.ar_executable,
             "RV32_TOOL_LD": cc_toolchain.ld_executable,

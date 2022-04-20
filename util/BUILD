@@ -2,6 +2,12 @@
 # Licensed under the Apache License, Version 2.0, see LICENSE for details.
 # SPDX-License-Identifier: Apache-2.0
 
+<<<<<<< HEAD
+=======
+load("@rules_python//python:defs.bzl", "py_binary")
+load("@ot_python_deps//:requirements.bzl", "requirement")
+
+>>>>>>> 024e3931a ([bazel] update `build_otbn.py` to import otbn_as module)
 package(default_visibility = ["//visibility:public"])
 
 exports_files(glob(["**"]))
@@ -12,3 +18,40 @@ genrule(
     cmd = """awk '/BUILD_GIT_VERSION/ { print $$2 }' bazel-out/volatile-status.txt > $@""",
     stamp = 1,  # this provides volatile-status.txt
 )
+<<<<<<< HEAD
+=======
+
+py_binary(
+    name = "otbn_build",
+    srcs = ["otbn_build.py"],
+    imports = ["../hw/ip/otbn/util/"],
+    deps = [
+        requirement("pyelftools"),
+        "//hw/ip/otbn/util:otbn_as",
+    ],
+)
+
+py_binary(
+    name = "rom_chip_info",
+    srcs = ["rom_chip_info.py"],
+)
+
+py_binary(
+    name = "regtool",
+    srcs = ["regtool.py"],
+    deps = [
+        "//util/reggen:countermeasure",
+        "//util/reggen:gen_cheader",
+        "//util/reggen:gen_dv",
+        "//util/reggen:gen_fpv",
+        "//util/reggen:gen_html",
+        "//util/reggen:gen_json",
+        "//util/reggen:gen_rtl",
+        "//util/reggen:gen_rust",
+        "//util/reggen:gen_sec_cm_testplan",
+        "//util/reggen:gen_selfdoc",
+        "//util/reggen:ip_block",
+        "//util/reggen:version",
+    ],
+)
+>>>>>>> 024e3931a ([bazel] update `build_otbn.py` to import otbn_as module)

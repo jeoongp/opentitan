@@ -21,6 +21,13 @@ genrule(
 <<<<<<< HEAD
 =======
 
+genrule(
+    name = "full_version_file",
+    outs = ["full_version.txt"],
+    cmd = """cp bazel-out/volatile-status.txt $@""",
+    stamp = 1,  # this provides volatile-status.txt
+)
+
 py_binary(
     name = "otbn_build",
     srcs = ["otbn_build.py"],

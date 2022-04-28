@@ -678,4 +678,27 @@ module lc_ctrl_fsm
       |=>
       lc_clk_byp_req_o == Off)
 
+  `ASSERT(SecCmCFITerminal0_A,
+      fsm_state_q == PostTransSt
+      |=>
+      fsm_state_q inside {PostTransSt, InvalidSt, EscalateSt})
+
+  `ASSERT(SecCmCFITerminal1_A,
+      fsm_state_q == ScrapSt
+      |=>
+      fsm_state_q inside {ScrapSt, InvalidSt, EscalateSt})
+
+  `ASSERT(SecCmCFITerminal2_A,
+      fsm_state_q == EscalateSt
+      |=>
+      fsm_state_q == EscalateSt)
+
+  `ASSERT(SecCmCFITerminal3_A,
+      fsm_state_q == InvalidSt
+      |=>
+      fsm_state_q inside {InvalidSt, EscalateSt})
+
+  // Check that the FSM is linear and does not contain any loops
+  `ASSERT_FPV_LINEAR_FSM(SecCmCFILinear_A, fsm_state_q, fsm_state_e)
+
 endmodule : lc_ctrl_fsm

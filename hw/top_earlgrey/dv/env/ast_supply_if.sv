@@ -20,6 +20,7 @@ interface ast_supply_if (
   // so it is sampled.
   localparam time GlitchTimeSpan = 10us;
   localparam int GlitchCycles = 2;
+  localparam int PulseCycles = 2;
 
   // The number of cycles after stopping the glitch in vcmain before restarting
   // assertions in pwrmgr.
@@ -66,4 +67,21 @@ interface ast_supply_if (
     force_vcmain_pok(1'b1);
   endtask
 
+  // Create pulse in aon_sysrst_ctrl_rst_req_o some cycles after a trigger transitions high.
+  task automatic pulse_aon_sysrst_ctrl_rst_req_o_next_trigger(int cycles);
+//    @(posedge trigger);
+    wait(top_earlgrey.u_pwrmgr_aon.reg2hw.reset_en[0] == 1'b1);
+    `uvm_info("ast_supply_if", $sformatf("sysrst configured, cycles : %0d",cycles), UVM_MEDIUM)
+    repeat (cycles) @(posedge clk);
+    force_syrst_ctrl_req_o(1'b1);
+    `uvm_info("ast_supply_if", "sysrst ctrl output high", UVM_MEDIUM)
+    repeat (PulseCycles) @(posedge clk);
+    force_syrst_ctrl_req_o(1'b0);
+    `uvm_info("ast_supply_if", "sysrst ctrl output low", UVM_MEDIUM)
+  endtask
+
+  task static force_syrst_ctrl_req_o(bit value);
+    `uvm_info("ast_supply_if", $sformatf("forcing syrst_ctrl_req_o to %b", value), UVM_MEDIUM)
+    force top_earlgrey.u_sysrst_ctrl_aon.aon_sysrst_ctrl_rst_req_o = value;
+  endtask
 endinterface

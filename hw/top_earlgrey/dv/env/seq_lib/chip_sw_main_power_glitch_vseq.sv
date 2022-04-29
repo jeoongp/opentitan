@@ -12,10 +12,11 @@ class chip_sw_main_power_glitch_vseq extends chip_sw_base_vseq;
 
   virtual task body();
     super.body();
-
+    `uvm_info(`gfn, "Test main power glitch in vseq stage0", UVM_LOW)
     // Wait until we reach the SW test state.
     wait(cfg.sw_test_status_vif.sw_test_status == SwTestStatusInTest);
 
+    `uvm_info(`gfn, "Test main power glitch in vseq stage1", UVM_LOW)
     cfg.ast_supply_vif.glitch_vcmain_pok_on_next_trigger(cycles_after_trigger);
   endtask
 endclass
